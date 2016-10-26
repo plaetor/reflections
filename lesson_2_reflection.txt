@@ -51,5 +51,16 @@ How do the diagrams help you visualize the branch structure?
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+	when we merge two branches together the commits from the separate branches
+	are also merged together to form one solid timeline with each commit 
+	sorted according to its timestamp. that way the commits look like they belong
+	to one branch. we present it in the diagram the way we do because it helps to
+	visualise the merge and remind us that some of the commits that are now next 
+	to each other do not necessarily represent a logical step in the development 
+	process since they have different parents and so comparisons like git diff 
+	between any two like this will show way more chnages than expected for 
+	adjacent commits simply because though they are adjacent they do not have a
+	parent-child relationship.	
+
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?

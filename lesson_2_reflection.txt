@@ -41,6 +41,13 @@ organized? How would branches help?
 
 How do the diagrams help you visualize the branch structure?
 
+	the diagrams help to provide a linear visualisation for the branch structure
+	by showing the layout of the commit history and any branching from the master
+	that has taken place.it helps to show the various branches in the history of 
+	the repository and how they relate to each other, including the flow of the
+	commits to show their reachability.
+
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 

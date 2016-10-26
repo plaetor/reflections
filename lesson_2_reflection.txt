@@ -31,6 +31,14 @@ change?
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
+	when you want to add features that extend the functionality of a project
+	but are not necessarily part of the main project, that way you can 
+	implement and test them out without affecting the main project itself an
+	example being; wanting the project in another language, or a paid version 
+	of a successful app that does away with ads, or adding a secret super level 
+	to a game for hardcore players. these changes can run parrarel to the main
+	branch without affecting its functionality.
+
 How do the diagrams help you visualize the branch structure?
 
 What is the result of merging two branches together? Why do we represent it in

@@ -58,9 +58,18 @@ the diagram the way we do?
 	visualise the merge and remind us that some of the commits that are now next 
 	to each other do not necessarily represent a logical step in the development 
 	process since they have different parents and so comparisons like git diff 
-	between any two like this will show way more chnages than expected for 
+	between any two like this will show way more changes than expected for 
 	adjacent commits simply because though they are adjacent they do not have a
 	parent-child relationship.	
 
 What are the pros and cons of Git’s automatic merging vs. always doing merges
 manually?
+
+	when everything is in order git's automatic merging is timesaving since it 
+	looks at the separate branches and if there are no conflicts it merges them 
+	together into one workflow. if we had to manually merge separate branches
+	we would have to take a lot of time looking at the sections of code to ensure 
+	they fit together without any conflicts then merging them. automatic merging 
+	on the other hand not only saves time by merging conflict free work together,
+	but when it comes across any conflict it flags the conflicting sections so that 
+	the developers/authors can look at the conflicts and decide what to do with them.

@@ -23,7 +23,7 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    when working on a collaborative project it helps to have the latest copy of master at hand so that the local copy is as close to the original as you can make it for compatibility reasons. that way you can have an idea of the changes that have been made to the master and how they affect local copy in terms of compatibility with the changes you might be making. it is also in keeping with the need to have commits that are made up of one logical change, since you can compare your changes to the latest state of the master.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?

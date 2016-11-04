@@ -33,4 +33,5 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I think you want to make changes in a separate branch rather than directly in master whenever you are about to add any functionality that may introduce problems with the master if by any chance there are any errors in it, or it just does not fit well with the main code. by doing this you avoid introducing errors to the master that may stop it from working properly since it is the main project, it also allows you test your branch against master well before trying to add to master and by so doing you will always have a working version of master.
+    making changes directly to master has the advantage of speed since you can see the effect on master immediately and if it works then there is no need for the hassle of fetching and merging, but this is very risky especially when working on a project with a team since there is potential for many errors to be introduced to the master making it more difficult to identify the problem.
